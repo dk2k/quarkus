@@ -35,7 +35,7 @@ public class WebSocketNextJsonRPCService implements ConnectionListener {
 
     private static final Logger LOG = Logger.getLogger(WebSocketNextJsonRPCService.class);
 
-    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("YYYY-MM-dd HH:mm:ss");
+    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     private static final String DEVUI_SOCKET_KEY_HEADER = "X-devui-socket-key";
 
